@@ -1,0 +1,107 @@
+body {
+	margin: 0;
+	background-color: #e8e8e8;
+	font-family: 'Open Sans', sans-serif;
+	padding-bottom: 100px;
+
+}
+
+.top_bar {
+	margin-top: -25px;
+	background-color: #282828;
+	margin-bottom: 30px;
+}
+
+#title {
+	padding: 20px;
+	color: white;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+	margin-top: 30px;
+	width: 70%;
+	margin: auto;
+}
+
+.article_image {
+	max-width: 100%; 
+	display:block; 
+	height: auto;
+	padding-bottom: 5px;
+}
+
+.button {
+	border: none;
+	color: #FFF;
+	font-size: 16px;
+	padding: 12px 24px;
+	text-align: center;
+	cursor: pointer;
+	display: inline-block;
+}
+
+.button-Next {
+	background-color: #900000;
+	float: right;
+}
+
+.button-Next:hover {
+	background-color: #730000;
+}
+
+.button-Previous {
+	background-color: #8b8b8b;
+	float: left;
+}
+
+.button-Previous:hover {
+	background-color: #7d7d7d;
+}
+
+#sortable {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#sortable li {
+	padding: 20px;
+	margin-bottom: 10px;
+}
+
+.rankings {
+	margin-bottom: 10px;
+}
+
+.ui-state-highlight {
+	height: 20px; !important;
+	margin-bottom: 10px !important;
+	border: 3px dashed #aaa !important;
+	background: #ccc !important;
+}
+
+#submit {
+	margin-top: 30px;
+}
+
+.box {
+	float: right;
+	border: 3px solid #e8e8e8;
+	padding: 20px;
+}
+
+/* CSS for mobile and tablet devices */
+@media (max-width: 768px) {
+	.container {
+		width: 85%;
+	}
+}
+
+/* CSS for mobile and tablet devices */
+@media (max-width: 480px) {
+	.button {
+		padding: 12px 20px;
+	}
+}
